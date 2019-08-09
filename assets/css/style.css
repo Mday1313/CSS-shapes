@@ -44,5 +44,34 @@ html {
     left: 50%;
     transform: translate3d(-50%, 0, 0);
     filter: hue-rotate(310deg) contrast(100%); 
+    opacity: 0.6;
+}
+#tri2 {
+    clip-path: polygon(50% 0, 0% 100%, 9% 100%, 
+	50% 17%, 50% 17%, 85% 91%, 13% 91%, 0 100%, 
+	100% 100%, 50% 0);
+	width: 80vh;
+	height: 70vh;
+	background: url(../images/MDP_1942.jpg) 
+    no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 1vh;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    filter: hue-rotate(10deg) contrast(140%);
     opacity: 0.7;
+}
+
+#tri3 {
+    clip-path: polygon(50% 0, 0% 100%, 9% 100%, 
+	50% 17%, 50% 17%, 85% 91%, 13% 91%, 0 100%, 
+	100% 100%, 50% 0);
+	width: 80vh;
+    height: 70vh;
+    background: rgba(0, 113, 107, 0.2);
+    position: absolute;
+    top: 20vh;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
 }
