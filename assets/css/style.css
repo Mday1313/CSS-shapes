@@ -1,0 +1,48 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+ #shape_contain {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    transform: translate3d(0,0,0);
+    border: 20px solid rgb(255, 254, 244);
+    background: linear-gradient(0deg, rgb(7, 47, 46, 0.8) 0%, rgb(255, 252, 226, 0.5) 50%), url('../images/MDP_1948.jpg')
+    no-repeat center center;
+    background-size: cover;
+}
+
+#circle {
+    width: 80vh;
+    height: 80vh;
+    border-radius: 50%;
+    background: rgba(136, 239, 231, 0.3);
+    position: absolute;
+    top: 7vh;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.3);
+} 
+
+#tri1 {
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    width: 100vh;
+    height: 88vh;
+    background: url('../images/Melissa_Williams_Lab_PaperPhoto_00004-2.jpg') no-repeat center center;
+    background-size: cover;
+    position: absolute;
+    top: 10vh;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    filter: hue-rotate(310deg) contrast(100%); 
+    opacity: 0.7;
+}
